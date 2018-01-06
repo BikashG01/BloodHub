@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#1C262F">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:id="@+id/DonorImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/demo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor"
+        android:textStyle="normal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:textColor="@color/background"
+        android:layout_toRightOf="@+id/DonorImage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:text="Blood"
+        android:textColor="@color/background"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+       android:layout_marginTop="125dp"
+        android:layout_toRightOf="@+id/DonorImage"/>
+
+</RelativeLayout>

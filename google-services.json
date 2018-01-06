@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "110970654354",
+    "firebase_url": "https://bloodh-26214.firebaseio.com",
+    "project_id": "bloodh-26214",
+    "storage_bucket": "bloodh-26214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110970654354:android:dc2cbb162f7347d1",
+        "android_client_info": {
+          "package_name": "com.bloodhubnp.bikas.tabplusnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110970654354-uio963q8r4bloj7u5uci17q99lj9s0bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdBGvcRfndJyAqxA2yWPjLtrd8uzCQ8t0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
